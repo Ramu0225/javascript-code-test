@@ -6,6 +6,7 @@ function multiplesOf3and5(number) {
 		}
 	}
 	console.log(count);
+	return count;
 }
 
-multiplesOf3and5(1000);
+module.exports= multiplesOf3and5;

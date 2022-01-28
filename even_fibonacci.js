@@ -13,6 +13,7 @@ function fiboEvenSum(n) {
 			[prevFibNum, fibNum] = [fibNum, prevFibNum + fibNum];
 		}
 		console.log(evenSum);
+		return evenSum;
 	}
 }
-fiboEvenSum(10);
+module.exports=fiboEvenSum;

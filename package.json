@@ -1,0 +1,25 @@
+{
+  "name": "js_code_test",
+  "version": "1.0.0",
+  "description": "JS_code_test",
+  "main": "even_fibonacci.js",
+  "scripts": {
+    "test": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramu0225/javascript-code-test.git"
+  },
+  "keywords": [
+    "JS_code_test"
+  ],
+  "author": "Ramu_Akarapu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramu0225/javascript-code-test/issues"
+  },
+  "homepage": "https://github.com/Ramu0225/javascript-code-test#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
