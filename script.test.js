@@ -1,4 +1,5 @@
 const fiboEvenSum = require("./even_fibonacci");
+const largestPrimeFactor = require("./largest_prime_factor");
 const multiplesOf3and5 = require("./project_euler");
 
 describe('fibonacci', () => {
@@ -12,3 +13,8 @@ describe('multiplesof3and5', () => {
     expect(multiplesOf3and5(49)).toBe(543);
   });
 });
+describe('largestPrimeFactor upto 9-digit', () => {
+  it("largestprimeFactor(8) is equal to 2", () => {
+    expect(largestPrimeFactor(13195)).toBe(29);
+  })
+})

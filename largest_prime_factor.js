@@ -1,14 +1,19 @@
 function largestPrimeFactor(n) {
   let primeFactor = [];
-  for (let i = 2; i <= n; i++){
+  let primeFactor2 = [];
+  for (let i = 2; i <= n-1; i++){
     if (n % i == 0) {
-      if (i % 2 !== 0 && i%3 !== 0) {
-          primeFactor.push(i);
+      primeFactor.push(i);
+      for (let j = 2; j < i;j++)
+      {
+        if (i % j == 0) {
+          primeFactor2.push(i);
+          break;
         }
-      
+      }  
     }
   }
-  console.log(primeFactor);
-  console.log(Math.max(...primeFactor));
+  primeFactor = primeFactor.filter(val=> !primeFactor2.includes(val));
+  return Math.max(...primeFactor);
 }
-largestPrimeFactor(13195);
+module.exports= largestPrimeFactor;
