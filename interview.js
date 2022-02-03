@@ -22,5 +22,13 @@ console.log(y)
 
 const a = [1, 2, 3];
 const b = [11, 12, 45, 55];
+
 const c = [...a, ...b];
 console.log(c);
+
+(function () {
+	var ax = (ba = 3);
+})();
+
+console.log("ax defined? " + (typeof ax !== "undefined"));
+console.log("ba defined? " + (typeof ba !== "undefined"));
