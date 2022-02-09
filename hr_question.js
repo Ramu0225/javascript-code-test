@@ -8,3 +8,5 @@
 //3--Why are you interested in this position?
 //4--what is your motivation?
 //5--what you what to improve on your soft skills?
+//work ethics, team-motivate,communication, positive atittude
+//6-- what is your role in past experience
