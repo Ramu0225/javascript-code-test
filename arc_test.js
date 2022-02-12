@@ -15,6 +15,7 @@ function fibo(n) {
 }
 const fibonacciNumbers = fibo(10);
 console.log("fibonacciNumbers", fibonacciNumbers);
+
 function solution() {
 	// write your code in Javascript
 	//
