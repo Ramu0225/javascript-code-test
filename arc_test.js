@@ -1,11 +1,12 @@
 // technical interview with Arc.dev to become verified developer
 function fibo(n) {
+	let fibonacciSeries = [0,1];
 	if (n <= 1) {
-		return 0;
+		return fibonacciSeries.push(n);
 	} else {
 		let firstNum = 0;
 		let secNum = 1;
-		let fibonacciSeries = [0, 1];
+		//let fibonacciSeries = [];
 		for (let i = 0; secNum <= n; i++) {
 			[firstNum, secNum] = [secNum, firstNum + secNum];
 			fibonacciSeries.push(secNum);
