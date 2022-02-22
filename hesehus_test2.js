@@ -26,6 +26,6 @@ function validateEmail() {
 }
 function validatePhone() {
   const phoneNumber = document.getElementById("phone")?.value || "";
-  return !!/[d]{3}[\s-]/.exec(phoneNumber)
+  return !!/^[0-9]{3}-[0-9]{3}-[0-9]{3}$/.exec("123-123-123");
 }
 console.log(solution());
