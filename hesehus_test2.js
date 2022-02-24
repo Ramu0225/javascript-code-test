@@ -22,7 +22,7 @@ function validateCompany() {
 }
 function validateEmail() {
 	const email = document.getElementById("email").value;
-	return !!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.exec(email);
+	return !!/^[^@\s]+@[^@\s\.]+\.[^@\s\.]+$/.exec(email);
 }
 function validatePhone() {
   const phoneNumber = document.getElementById("phone")?.value || "";
